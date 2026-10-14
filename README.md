@@ -1,8 +1,15 @@
+<<<<<<< HEAD
 # 🦉 Project Night Owl: Low-Light Object Detection via Generative Domain Adaptation
 
 Standard object detection models cant detect greatly in low-light environments. Project Night Owl proposes a two-stage computer vision pipeline bridging Generative AI and Discriminative AI. 
 
 By utilizing an unsupervised CycleGAN to translate low-illumination images into daylight images, we successfully recover hidden physical geometries without paired data, enabling standard YOLOv8 models to detect objects in pitch-black footage.
+=======
+# Night-Owl : Low-Light Object Detection via Generative Domain Adaptation
+Standard object detection models cant detect greatly in low-light environments. Project Night Owl proposes a two-stage computer vision pipeline bridging Generative AI and Discriminative AI.
+
+By utilizing an unsupervised CycleGAN to translate low-illumination images into daylight images, we successfully recover hidden physical geometries without paired data, enabling standard YOLOv8 models to detect objects in pitch-black footage
+>>>>>>> eb12a76222b6773e7705829225f902630a55008d
 
 ## Datasets
 
@@ -56,6 +63,7 @@ Run 03_yolo_pipeline/yolo_training_after_enhancement.ipynb to train the final mo
 ## Results
 **Initially trained Model**
 ![alt text](Runs/exdark_baseline_1/BoxPR_curve.png)
+<<<<<<< HEAD
 
 **trained on enhanced dataset**
 ![alt text](Runs/exdark_enhanced_1/BoxPR_curve.png)
@@ -66,3 +74,5 @@ Run 03_yolo_pipeline/yolo_training_after_enhancement.ipynb to train the final mo
 | **Baseline YOLOv8** (Trained on Original dataset) | 0.794 | High machine accuracy, low human visibility. |
 | **Domain Shift Test** (Dark model on Bright data) | 0.646 | Expected performance drop due to generative artifacts. |
 | **Project Night Owl** (Fully Enhanced Pipeline) | 0.750 | **Optimal Balance:** Maintains 75% machine accuracy while restoring 100% human visual clarity. |
+=======
+>>>>>>> eb12a76222b6773e7705829225f902630a55008d
