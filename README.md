@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-# 🦉 Project Night Owl: Low-Light Object Detection via Generative Domain Adaptation
-
-Standard object detection models cant detect greatly in low-light environments. Project Night Owl proposes a two-stage computer vision pipeline bridging Generative AI and Discriminative AI. 
-
-By utilizing an unsupervised CycleGAN to translate low-illumination images into daylight images, we successfully recover hidden physical geometries without paired data, enabling standard YOLOv8 models to detect objects in pitch-black footage.
-=======
 # Night-Owl : Low-Light Object Detection via Generative Domain Adaptation
 Standard object detection models cant detect greatly in low-light environments. Project Night Owl proposes a two-stage computer vision pipeline bridging Generative AI and Discriminative AI.
 
