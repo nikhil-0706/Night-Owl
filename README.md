@@ -1,2 +1,1 @@
-# Night-Owl
-Low-Light Object Detection via Generative Domain Adaptation
+# Night-Owl : Low-Light Object Detection via Generative Domain Adaptation
